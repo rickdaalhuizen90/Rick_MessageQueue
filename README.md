@@ -6,6 +6,7 @@ This module showcases asynchronous event handling in Magento 2 with RabbitMQ, pr
 
 - **Producer:** Sends messages to the waiting line (RabbitMQ queue)
 - **Queue:** The waiting line itself, holding messages until they're processed.
+  **Topic:** Topics are used to group related messages together based on a common theme or subject.
 - **Consumer:** Listens to the queue, grabs messages, and takes action. (We have two in this example!)
 
 ## Real-world Uses:
