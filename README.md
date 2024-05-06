@@ -99,6 +99,8 @@ For more detaults on implementing custom message queues, refer to the Magento do
 
 ### Additional Resources
 
-- [Magento Developer Documentation](https://developer.adobe.com/commerce/php/development/components/message-queues/)
+- [Asynchronous configuration](https://developer.adobe.com/commerce/php/development/components/message-queues/async-configuration/)
+- [Configure message queues](https://developer.adobe.com/commerce/php/development/components/message-queues/configuration/)
+- [Topics in asynchronous API](https://developer.adobe.com/commerce/php/development/components/message-queues/async-topics/)
 - [RabbitMQ Documentation](https://www.rabbitmq.com/docs)
-- [Asynchronous Magento with Message Queues](https://hevodata.com/learn/magento-2-queue/)
+- [Asynchronous Magento](https://www.phparch.com/2020/08/asynchronous-magento/)
