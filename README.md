@@ -89,7 +89,7 @@ Add consumers to cron_consumers_runner in app/etc/env.php:
 ## Module Implementation (Custom Logic)
 
 1. **Define Events:** Identify the events in your module that should trigger message queue messages.
-2. **Create Message Producer:** Use the `Magento\Framework\RabbitMQExample\PublisherInterface` to publish messages to the RabbitMQ queue.
+2. **Create Message Producer:** Use the `Magento\Framework\MessageQueue\PublisherInterface` to publish messages to the RabbitMQ queue.
 3. **Implement Message Consumer:** Create a queue consumer class that extends `Vendor\Module\Api\ConsumerInterface` and processes messages received from the queue.
 4. **Configure Queue and Consumer:** Register your queue and consumer in the `etc` folder using XML configuration files (`communication.xml`, `queue_topology.xml`, `queue_consumer.xml`, and `queue_publisher.xml`). These files define message routing logic and consumer association with the queue.
 
